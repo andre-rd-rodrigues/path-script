@@ -9,13 +9,11 @@ Before you begin, make sure you have **[Node.js](https://nodejs.org/)** installe
 
 ## **Installation**
 
-1. Clone this repository or download the script file to a directory of your choice.
-2. Open your terminal and navigate to the directory containing the script.
-3. Install the required dependencies by running the following command:
+You can install this tool via npm:
 
-   ```bash
-   npm install cli-progress
-   ```
+```bash
+npm i -g @andrerodrigo/path-tracer
+```
 
 ## **Usage**
 
