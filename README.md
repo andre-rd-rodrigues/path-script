@@ -23,15 +23,15 @@ To use the script, follow these steps:
 2. Navigate to the directory containing the script and run the following command:
 
    ```bash
-   path-tracer [componentName1] [componentName2] ...
+   path-tracer [componentName1.ex] [componentName2.ex] ...
    ```
 
-   Replace **`[componentName1]`**, **`[componentName2]`**, etc. with the names of the components you want to find.
+   Replace **`[componentName1.ex]`**, **`[componentName2.ex]`**, etc. with the names of the components you want to find.
 
    For example:
 
    ```bash
-   path-tracer Button Modal
+   path-tracer Button.tsx Modal.tsx
    ```
 
    This will search for the paths of the components named "Button" and "Modal" within the current directory and its subdirectories.
@@ -41,6 +41,6 @@ To use the script, follow these steps:
 
 ## Notes
 
-- If no component names are provided as command-line arguments, an error message will be displayed.
+- If NO component names and extensions are provided as command-line arguments, an error message will be displayed.
 - The script searches for components recursively in the specified directory and its subdirectories.
 - If a component is found, its path will be displayed next to its name. If not found, "Not found" will be indicated.
