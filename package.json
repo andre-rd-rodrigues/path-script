@@ -22,6 +22,10 @@
     "npm run path-trace",
     "cli"
   ],
+  "files": [
+    "index.js",
+    "README.md"
+  ],
   "dependencies": {
     "cli-progress": "^3.12.0",
     "fs": "^0.0.1-security",
